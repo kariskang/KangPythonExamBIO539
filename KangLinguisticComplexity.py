@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-
+'''
+    Calculate linguistic complexity of sequence data imported as a text file 
+    Args: 
+        1: a txt file with sequence data, no lines
+    
+    Return: 
+        Linguistic complexity of sequence data
+        The total number of unique observed substrings and unique possible substrings
+        
+'''
 import sys
 
 f = open(sys.argv[1], 'r') 
